@@ -23,7 +23,7 @@ go.work
 go.work.sum
 
 # env file
-#.env
+.env
 
 #key files for SSH / SCT / SFTP
 *.pem
