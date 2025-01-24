@@ -7,6 +7,7 @@
 *.dll
 *.so
 *.dylib
+!executables/*
 
 # Test binary, built with `go test -c`
 *.test
@@ -22,4 +23,7 @@ go.work
 go.work.sum
 
 # env file
-.env
+#.env
+
+#key files for SSH / SCT / SFTP
+*.pem
